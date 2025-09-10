@@ -4,7 +4,7 @@ import type {
 } from "@umbraco-cms/backoffice/extension-api";
 
 export const onInit: UmbEntryPointOnInit = (_host, _extensionRegistry) => {
-  document.body.addEventListener('rightClicker', function(e) {
+  document.body.addEventListener('contextmenu', function(e) {
     const path = e.composedPath();
     const menuItem = path.find(
       (el): el is Element => el instanceof Element && el.tagName === 'UUI-MENU-ITEM'

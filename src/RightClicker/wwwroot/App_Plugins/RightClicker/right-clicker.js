@@ -3,7 +3,7 @@ const t = [
     name: "Right Clicker Entrypoint",
     alias: "RightClicker.Entrypoint",
     type: "backofficeEntryPoint",
-    js: () => import("./entrypoint-FpA6TfiA.js")
+    js: () => import("./entrypoint-DucgEe26.js")
   }
 ], i = [
   ...t
