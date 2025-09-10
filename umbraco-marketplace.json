@@ -4,8 +4,8 @@
       "Name": "Jesper Mayntzhusen",
       "ImageUrl": "https://github.com/jemayn.png"
     },
-    "Category": "",
-    "Description": "",
+    "Category": "Editor Tools",
+    "Description": "This package allows you to right click menu trees again",
     "LicenseTypes": [ "Free" ],
     "IssueTrackerUrl": "https://github.com/jemayn/RightClicker/issues",
     "PackageType": "Package",
