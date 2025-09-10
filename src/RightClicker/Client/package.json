@@ -1,0 +1,21 @@
+{
+  "name": "right-clicker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "watch": "tsc && vite build --watch",
+    "build": "tsc && vite build",
+    "generate-client": "node scripts/generate-openapi.js https://localhost:44398/umbraco/swagger/rightclicker/swagger.json"
+  },
+  "devDependencies": {
+    "@hey-api/client-fetch": "0.12.0",
+    "@hey-api/openapi-ts": "0.71.0",
+    "@umbraco-cms/backoffice": "^*",
+    "chalk": "^5.4.1",
+    "cross-env": "^7.0.3",
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.4"
+  }
+}

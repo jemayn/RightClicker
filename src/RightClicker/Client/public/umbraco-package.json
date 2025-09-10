@@ -1,0 +1,14 @@
+{
+  "id": "RightClicker",
+  "name": "RightClicker",
+  "version": "0.0.0",
+  "allowTelemetry": true,
+  "extensions": [
+    {
+      "name": "Right Clicker Bundle",
+      "alias": "RightClicker.Bundle",
+      "type": "bundle",
+      "js": "/App_Plugins/RightClicker/right-clicker.js"
+    }
+  ]
+}

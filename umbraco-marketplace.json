@@ -1,0 +1,14 @@
+{
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json", 
+    "AuthorDetails": {
+      "Name": "Jesper Mayntzhusen",
+      "ImageUrl": "https://github.com/jemayn.png"
+    },
+    "Category": "",
+    "Description": "",
+    "LicenseTypes": [ "Free" ],
+    "IssueTrackerUrl": "https://github.com/jemayn/RightClicker/issues",
+    "PackageType": "Package",
+    "Tags": [],
+    "Title": "Right Clicker "
+  }
