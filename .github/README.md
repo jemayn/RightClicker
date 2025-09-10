@@ -4,23 +4,23 @@
 [![NuGet](https://img.shields.io/nuget/vpre/Umbraco.Community.RightClicker?color=0273B3)](https://www.nuget.org/packages/Umbraco.Community.RightClicker)
 [![GitHub license](https://img.shields.io/github/license/jemayn/RightClicker?color=8AB803)](../LICENSE)
 
-TODO: describe your package
+This package is for all Umbraco users who are working on Umbraco 16.2+ and are frustrated that the right click context actions have disappeared from trees.
 
-<!--
-Including screenshots is a really good idea! 
+All this package does is use some very ugly and bad tree traversal and an event listener that allows your right clicks to go from this:
 
-If you put images into /docs/screenshots, then you would reference them in this readme as, for example:
+![Alt text](images/image.png)
 
-<img alt="..." src="https://github.com/jemayn/RightClicker/blob/develop/docs/screenshots/screenshot.png">
--->
+To this:
+
+![Alt text](images/image-1.png)
 
 ## Installation
 
-Add the package to an existing Umbraco website (v15+) from nuget:
+Add the package to an existing Umbraco website (v16.2+) from nuget:
 
 `dotnet add package Umbraco.Community.RightClicker`
 
-TODO *provide any other instructions for someone using your package*
+Now you can right click tree items all you want!
 
 ## Contributing
 
@@ -28,4 +28,4 @@ Contributions to this package are most welcome! Please read the [Contributing Gu
 
 ## Acknowledgments
 
-TODO
+Thank you to Lotte Pitcher for her wonderful [opinionated package starter kit](https://github.com/LottePitcher/opinionated-package-starter)
