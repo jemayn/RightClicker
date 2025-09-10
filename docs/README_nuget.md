@@ -8,11 +8,11 @@ This package is for all Umbraco users who are working on Umbraco 16.2+ and are f
 
 All this package does is use some very ugly and bad tree traversal and an event listener that allows your right clicks to go from this:
 
-![Alt text](../.github/images/image.png)
+![Alt text](https://raw.githubusercontent.com/jemayn/RightClicker/refs/heads/main/.github/images/image.png)
 
 To this:
 
-![Alt text](../.github/images/image-1.png)
+![Alt text](https://raw.githubusercontent.com/jemayn/RightClicker/refs/heads/main/.github/images/image-1.png)
 
 ## Installation
 
